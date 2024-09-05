@@ -81,10 +81,12 @@ for i in range(0,len(arrInputs)):
         except Exception as e:
             traceback.print_exc()
         print('Line {}\t{}\t{}'.format(i,is_ok,index_run))
+        time.sleep(3)
         if is_ok:
             break
         else:
-            time.sleep(3)
+            pass
+            # time.sleep(2)
     # if i>=10:
     #     break
 # max_entries=3
